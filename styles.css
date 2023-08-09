@@ -9,10 +9,14 @@ footer {
 
 body {
   font-family: 'Jost', sans-serif;
+  color: #efefef;
+  background-image: url('/images/background.jpeg');
+  background-size: cover;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
 }
 
 a {
-    color: black;
+  color: #efefef;
 }
 
 .light {
@@ -25,15 +29,4 @@ footer {
 
 .handwritten {
   font-family: 'Rock Salt', cursive;
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-      background-color: #111;
-      color: #efefef;
-    }
-
-  a {
-      color: #efefef;
-  }
 }

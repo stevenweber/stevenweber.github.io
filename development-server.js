@@ -18,6 +18,7 @@ const contentTypes = {
   css: CSS_CONTENT_TYPE,
   html: HTML_CONTENT_TYPE,
   jpg: JPEG_CONTENT_TYPE,
+  jpeg: JPEG_CONTENT_TYPE,
   js: JS_CONTENT_TYPE,
   png: PNG_CONTENT_TYPE,
 };
@@ -29,6 +30,7 @@ const ALLOW_LIST = [
   '/tests.js',
   '/images/og.jpg',
   '/images/favicon.png',
+  '/images/background.jpeg',
 ];
 
 function determineContentType(url) {
